@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FXFramework"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Maple 1.1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SDK 1.1"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/assertj-core-3.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/jmock-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/jmock-junit4-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/jmock-testjar-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-jupiter-api-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-jupiter-engine-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-jupiter-params-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-platform-commons-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-platform-engine-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/junit-platform-launcher-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/opentest4j-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/slf4j-api-1.7.9.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/testFx-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/testfx-core-4.0.13-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/testfx-junit-4.0.13-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/ProjDevs/GeoDevJD/Tile Generator/lib/testfx-junit5-4.0.13-alpha.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

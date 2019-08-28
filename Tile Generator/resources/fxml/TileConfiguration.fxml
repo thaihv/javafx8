@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="457.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uitgis.plugin.tilegenerator.controller.TileController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <VBox alignment="CENTER_LEFT" spacing="10.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="lblTileTitle" text="%comp.tile.title">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="%comp.tile.description">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="83.0" prefWidth="368.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="437.0" spacing="10.0">
+               <children>
+                  <Label id="section-label" prefHeight="17.0" text="Tile Size" HBox.hgrow="ALWAYS" />
+                  <Separator id="section-separator" maxHeight="1.0" minHeight="1.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="368.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="58.0" text="Width" />
+                  <TextField fx:id="tfTileWidth" text="512" />
+                  <Label prefHeight="17.0" prefWidth="60.0" text="Height" />
+                  <TextField fx:id="tfTileHeight" text="512" />
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="170.0" prefWidth="368.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="437.0" spacing="10.0">
+               <children>
+                  <Label id="section-label" prefHeight="17.0" text="The Origin" HBox.hgrow="ALWAYS" />
+                  <Separator id="section-separator" maxHeight="1.0" minHeight="1.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+               <children>
+                  <RadioButton fx:id="rbExtentPoint" mnemonicParsing="false" prefHeight="29.0" selected="true" text="Use Lower Point of Target Extent">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tglOriginPoint" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="rbDefinedPoint" mnemonicParsing="false" text="Use User Defined Origin" toggleGroup="$tglOriginPoint" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="368.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="145.0" text="X Coordinate of Origin" />
+                  <TextField fx:id="tfOriginX" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="437.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="146.0" text="Y Coordinate of Origin" />
+                  <TextField fx:id="tfOriginY" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" spacing="10.0" VBox.vgrow="ALWAYS">
+         <children>
+            <CheckBox fx:id="ckbCreateEmptyTile" mnemonicParsing="false" text="Create tile, even if it is empty map" />
+            <CheckBox fx:id="ckbOverwrite" mnemonicParsing="false" text="Overwrite Tile-Map, if the Tile-Map with same name already exist" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="27.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>

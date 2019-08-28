@@ -1,0 +1,29 @@
+
+.button.toolable,
+.toggle-button.toolable {
+	-fx-background-color: transparent;
+    -fx-background-insets: 3 0 3 0;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+	-fx-border-style: solid;
+	-fx-border-insets: 3 0 3 0;
+    -fx-padding: 2; 
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.button.toolable:hover,
+.toggle-button.toolable:hover {
+	-fx-background-color: #FCE3D2;
+	-fx-border-color: orange;
+	-fx-border-style: solid;
+}
+
+.button.toolable:pressed,
+.toggle-button.toolable:pressed,
+.toggle-button.toolable:selected {
+	-fx-background-color: #FCBC90;
+	-fx-border-color: orange;
+	-fx-border-style: solid;
+}

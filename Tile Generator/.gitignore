@@ -1,0 +1,6 @@
+/bin/
+/logs/
+/configuration/
+/data/
+/derby.log
+/app.lock

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER_LEFT" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uitgis.plugin.tilegenerator.controller.WizardController">
+   <children>
+      <VBox fx:id="contentPanel" alignment="CENTER" prefHeight="267.0" prefWidth="400.0" VBox.vgrow="ALWAYS" />
+      <HBox fx:id="hboxIndicators" alignment="CENTER" spacing="2.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </HBox>
+      <Separator />
+      <HBox alignment="TOP_RIGHT" spacing="10.0">
+         <children>
+            <Button fx:id="btnBack" mnemonicParsing="false" onAction="#back" prefWidth="70.0" text="Back" />
+            <Button fx:id="btnNext" mnemonicParsing="false" onAction="#next" prefWidth="70.0" text="Next" />
+            <Button fx:id="btnFinish" mnemonicParsing="false" onAction="#finish" prefWidth="70.0" text="Finish" />
+            <Button fx:id="btnReset" mnemonicParsing="false" onAction="#reset" prefWidth="70.0" text="Reset">
+               <HBox.margin>
+                  <Insets right="8.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
